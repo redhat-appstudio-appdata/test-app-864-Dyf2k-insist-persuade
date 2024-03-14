@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retrodep-fgv3
     spec:
       containers:
-      - image: retrodep:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-864/retrodep-fgv3@sha256:8c680b6ca7a1d51e7c532a61f841bc3196d2279b5ef629b19eb1ddadccba8cea
         name: my-retrodep
         ports:
         - containerPort: 8081
