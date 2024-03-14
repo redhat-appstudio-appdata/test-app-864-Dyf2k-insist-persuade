@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-digest-only-fyvc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-864/e2e-tests-parent-image-with-digest-only-fyvc@sha256:cc6ec2289408979d0bc919d7be3f584da32d17134fadfd33be26d2cbbfe55d6e
         imagePullPolicy: Always
         name: container-image
         ports:
