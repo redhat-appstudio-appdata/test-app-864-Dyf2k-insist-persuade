@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-ruwf
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-864/e2e-tests-use-latest-parent-image-ruwf@sha256:b89f11a45aa225872ee0a6c7ecbe7d6f203c1527782d907a499c87ff8774bb8c
         imagePullPolicy: Always
         name: container-image
         ports:
