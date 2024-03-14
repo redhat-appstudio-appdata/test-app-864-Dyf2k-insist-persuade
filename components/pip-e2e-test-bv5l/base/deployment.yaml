@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-bv5l
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-864/pip-e2e-test-bv5l@sha256:a4ca2525352624a85a57ff487fc685ef38d91c1021a8edb9ad7cecf6e0395e60
         name: pip-e2e-test
         ports:
         - containerPort: 8081
